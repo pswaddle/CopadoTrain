@@ -19,8 +19,8 @@ installedPackages/*
 src/classes/copado__*
 src/triggers/copado__*
 src/pages/copado__*
-pages/copado__*
-pages/copado__*
+classes/copado__*
+triggers/copado__*
 pages/copado__*
 
 #Translations are complex since get updated indirectly across multiple files, they can make a deployment fail
@@ -30,7 +30,7 @@ pages/copado__*
 
 src/translations/*
 src/objectTranslations/*
-objectTranslations/*
+translations/*
 objectTranslations/*
 
 #Sites which has Domain mapping has environment specific information. 
