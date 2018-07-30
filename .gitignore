@@ -5,6 +5,7 @@ package.xml
 #recommended to manage this outside git
 
 src/installedPackages/*
+installedPackages/*
 
 #if you are not customizing a managed package, you can keep your repository clean by ignoring 
 #all files for that package. For example, to ignore all files of the "Copado" managed package
@@ -18,6 +19,9 @@ src/installedPackages/*
 src/classes/copado__*
 src/triggers/copado__*
 src/pages/copado__*
+pages/copado__*
+pages/copado__*
+pages/copado__*
 
 #Translations are complex since get updated indirectly across multiple files, they can make a deployment fail
 #if a field is translated in source and it doesn't exist on destination. 
@@ -26,6 +30,8 @@ src/pages/copado__*
 
 src/translations/*
 src/objectTranslations/*
+objectTranslations/*
+objectTranslations/*
 
 #Sites which has Domain mapping has environment specific information. 
 #Make sure you setup Copado Environment Variables to make sites config files environment agnostic.
@@ -34,3 +40,6 @@ src/objectTranslations/*
 src/sites/*
 src/siteDotComSites/*
 src/package.xml
+sites/*
+package.xml
+package.xml
