@@ -5,7 +5,7 @@ public class AccountOperations {
         // conflict
     }
     public static Account setDefaultPhone(Account a) {
-        a.Phone = '(617) 1234444';
+        a.Phone = '(617) 123555';
         return a;
     }
 }
